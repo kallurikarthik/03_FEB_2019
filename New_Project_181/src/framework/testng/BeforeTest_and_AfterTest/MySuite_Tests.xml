@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="default_suite">
+
+	<test name="test_firefox">
+			<classes>
+					<class name="framework.testng.BeforeTest_and_AfterTest.ClassA"></class>
+					<class name="framework.testng.BeforeTest_and_AfterTest.ClassB"></class>
+					<class name="framework.testng.BeforeTest_and_AfterTest.Test_For_Firefox"></class>
+			</classes>
+	</test>	
+	
+	<test name="test_chrome">
+			<classes>
+					<class name="framework.testng.BeforeTest_and_AfterTest.ClassA"></class>
+					<class name="framework.testng.BeforeTest_and_AfterTest.ClassB"></class>
+					<class name="framework.testng.BeforeTest_and_AfterTest.Test_for_Chrome"></class>
+			</classes>
+	</test>	
+</suite>

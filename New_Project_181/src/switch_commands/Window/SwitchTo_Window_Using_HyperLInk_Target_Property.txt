@@ -1,0 +1,36 @@
+Switch To New Window Using HyperLink Target property:-->
+
+
+	Link:-->
+		Load new webpage at current browser window
+
+		HtmlSource:-->
+
+		<a href="http://messenger.com" > Messenger </a>
+
+	Hyperlink:-->
+		Load New webpage in separate window or browser Tab.
+
+		HtmlSourrce:-->
+			
+		<a  target="_new"   href="http://instagram.com"> Instagram </a>
+
+
+	
+		=> Click HyperLink  [The link open page at new window]
+		driver.findElement(By.Linktext("Instagram")).click();
+	
+		=> Switch Controls to new window
+		driver.switchTo().window("_new");
+
+
+		Note:-->
+			=> Use Hyper link target property to switch to new window
+			=> Don't use when target property defined as  blank 
+				<a target="_blank"  href="#page"> Page </a>
+======================================================================
+
+
+
+
+

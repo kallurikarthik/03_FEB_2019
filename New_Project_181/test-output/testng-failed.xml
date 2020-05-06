@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [default]">
+  <listeners>
+    <listener class-name="framework.testng.Listeners.Run_Listeners"/>
+    <listener class-name="framework.testng.Listeners.Test_Reporter"/>
+  </listeners>
+  <test name="test1(failed)">
+    <classes>
+      <class name="framework.testng.Listeners.MyTest">
+        <methods>
+          <include name="tc005"/>
+          <include name="tc003"/>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- framework.testng.Listeners.MyTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [default] -->

@@ -1,0 +1,4 @@
+Arrays:-->
+	In Java, arrays are used to store multiple values in single variable.
+	
+	
